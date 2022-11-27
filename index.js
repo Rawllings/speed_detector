@@ -1,5 +1,6 @@
 // The onclick function 
-calculating the speed limit af a car 
+// calculating the speed limit af a car 
+
 function speedDetector(){
     let speed = document.getElementById("speed").value;
     if(speed  < 0){
