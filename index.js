@@ -1,10 +1,12 @@
+// The onclick function 
+calculating the speed limit af a car 
 function speedDetector(){
     let speed = document.getElementById("speed").value;
     if(speed  < 0){
         document.getElementById('points').innerHTML= "Invalid Speed"
     }
 
-    else if(speed >= 0 && speed  <= 70){
+    else if(speed  <= 70){
         document.getElementById('points').innerHTML= "Your speed is okay"
     }
     else if(speed >= 80 && speed < 90){
